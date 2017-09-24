@@ -1,0 +1,16 @@
+inputFile: /Users/sathishjayaraman/java_projects/import-csv-to-hbase/worldcupplayerinfo_20140701.csv
+quorum: "127.0.0.1"
+port: "2181"
+tableName: players_data
+rowKey: Group:Country:Jersey
+rowValues  :
+    - qualifier   : main:name
+      value       : Player
+    - qualifier   : main:age
+      value       : Age
+    - qualifier   : main:position
+      value       : Position
+    - qualifier   : main:club
+      value       : Club
+    - qualifier   : main:iscaptain
+      value       : Captain
